@@ -3,18 +3,15 @@
   "version": "0.0.0",
   "description": "",
   "main": "example.js",
-  "dependencies": {
-    "axios-demock": "^0.0.0"
-  },
   "devDependencies": {
     "axios": "^0.8.1",
-    "axios-demock": "0.0.0",
+    "axios-demock": "^0.0.0",
     "beefy": "^2.1.5",
     "browserify": "^13.0.0",
     "demock": "^0.4.2"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node_modules/.bin/beefy example.js"
   },
   "author": "Ates Goral <ates@magnetiq.com> (http://magnetiq.com/)",
   "license": "MIT"
